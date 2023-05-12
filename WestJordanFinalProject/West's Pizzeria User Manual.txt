@@ -1,0 +1,59 @@
+Jordan West's Final Project for SDEV150
+
+User Manual for West's Pizzeria GUI
+
+1. Introduction
+	This is a pizza ordering GUI for a new pizza resturaunt. It consists of personal information, pizza size, and topping(s) a customer would like.
+
+2. Windows
+	I.		Window 1:
+				4 Tabs:
+					Information, Confirmation, Sizes, and Toppings
+			Window 2:
+				Displays all the information gathered from Window 1, only accessible by clicking the "Checkout" button on Tab 4. 
+
+3. Tabs
+	I. 		Information
+	II. 	Confirmation
+	III. 	Sizes
+	IV. 	Toppings
+	
+4. Tab Contents, Details, and Functions
+	I.  	The "Information" tab contains:
+				Three entry boxes for the users:
+					Name, Address, Address2, and Phone Number. 
+				Two buttons:
+					Confirm Contact Information: 
+						Tabs the user over to the Confirmation tab, which is the third tab. 
+					Exit:
+						Exits the application.
+					
+	II. 	The "Confirmation" tab contains:
+				A display of the users text that was input in the "Information" tabs entry boxes.
+				Three Buttons:
+					Redo Contact Information:
+						This button sends the user back to the "Information" tab and resets the data to allow the user to input the correct information.
+					Sizes:
+						This button sends the user to the "Sizes" tab, which is the third tab.
+					Exit:
+						Exits the application.
+		
+	III. 	The "Sizes" tab contains:
+				A dropdown menu button that allows the user to select a size of pizza they wish to order.
+				Three Buttons:
+					Go Back:
+						This button sends the user back to the previous tab, the "Confirmation" tab.
+					Toppings:
+						This button sends the user to the "Toppings" tab, which is the fourth tab.
+					Exit:
+						Exits the application.
+						
+	IV. 	The "Toppings" tab contains:
+				A list that allows the user to select a selection of pizza toppings they wish to order.
+				Three Buttons:
+					Go Back:
+						This button sends the user back to the previous tab, the "Sizes" tab.
+					Checkout:
+						This button sends the user to the "Checkout" window, which is Window 2.
+					Exit:
+						Exits the application.
