@@ -32,14 +32,14 @@ notebook.add(tab4, text = "Toppings")
 notebook.pack(expand = True, fill = "both")
 
 #images
-image1 = Image.open("C:\IVYTECH\SDEV\WestJordan_GUI_FINAL_PROJECT\pizza1.jpg")
+image1 = Image.open("C:\IVYTECH\SDEV\WestJordanFinalProjectT\pizza1.jpg")
 image1 = image1.resize((250, 250))
 photo1 = ImageTk.PhotoImage(image1)
 image1_label = Label(tab1, image = photo1)
 image1_label.image = photo1
 image1_label.grid(row = 7)
 
-image2 = Image.open("C:\IVYTECH\SDEV\WestJordan_GUI_FINAL_PROJECT\pizza2.jpg")
+image2 = Image.open("C:\IVYTECH\SDEV\WestJordanFinalProject\pizza2.jpg")
 image2 = image2.resize((250, 250))
 photo2 = ImageTk.PhotoImage(image2)
 image2_label = Label(tab4, image = photo2)
