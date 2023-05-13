@@ -32,7 +32,7 @@ notebook.add(tab4, text = "Toppings")
 notebook.pack(expand = True, fill = "both")
 
 #images
-image1 = Image.open("C:\IVYTECH\SDEV\WestJordanFinalProjectT\pizza1.jpg")
+image1 = Image.open("C:\IVYTECH\SDEV\WestJordanFinalProject\pizza1.jpg")
 image1 = image1.resize((250, 250))
 photo1 = ImageTk.PhotoImage(image1)
 image1_label = Label(tab1, image = photo1)
