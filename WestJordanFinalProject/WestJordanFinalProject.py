@@ -32,16 +32,25 @@ notebook.add(tab4, text = "Toppings")
 notebook.pack(expand = True, fill = "both")
 
 #images
-image1 = Image.open("C:\IVYTECH\SDEV\WestJordanFinalProject\pizza1.jpg")
-image1 = image1.resize((250, 250))
-photo1 = ImageTk.PhotoImage(image1)
+url = "https://raw.githubusercontent.com/JordanWest812/Final-Project/main/WestJordanFinalProject/pizza1.jpg"
+urllib.request.urlretrieve(url, "pizza1.jpg")
+
+url2 = "https://raw.githubusercontent.com/JordanWest812/Final-Project/main/WestJordanFinalProject/pizza2.jpg"
+urllib.request.urlretrieve(url2, "pizza2.jpg")
+
+
+photo1 = Image.open("pizza1.jpg")
+sized_photo1 = photo1.resize((250, 250), Image.LANCZOS)
+photo1 = ImageTk.PhotoImage(sized_photo1)
+
 image1_label = Label(tab1, image = photo1)
 image1_label.image = photo1
 image1_label.grid(row = 7)
 
-image2 = Image.open("C:\IVYTECH\SDEV\WestJordanFinalProject\pizza2.jpg")
-image2 = image2.resize((250, 250))
-photo2 = ImageTk.PhotoImage(image2)
+photo2 = Image.open("pizza2.jpg")
+sized_photo2 = photo2.resize((250, 250), Image.LANCZOS)
+photo2 = ImageTk.PhotoImage(sized_photo2)
+
 image2_label = Label(tab4, image = photo2)
 image2_label.image = photo2
 image2_label.grid(row = 7)
